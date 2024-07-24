@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
 }
 
 .fullcontainer {
@@ -57,6 +58,7 @@ header {
 
 .main-navigation {
   display: flex;
+  align-items: center;
 }
 
 .main-navigation ul {
@@ -72,7 +74,7 @@ header {
   text-decoration: none;
   font-size: 17px;
   font-weight: 700;
-  font-family: Helvetica, sans-serif;
+
   margin-bottom: 3px;
   border-bottom: solid 3px transparent;
 }
@@ -81,11 +83,34 @@ header {
   border-color: #e7a200;
 }
 
-.sec-menu{
-    display: flex;
+.sec-menu {
+  display: flex;
 }
 
-.site-header-main{
+.sec-menu{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.site-header-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec-menu ion-icon{
+font-size: 25px;
+}
+
+#btnZap{
+background: #e7a200;
+border-radius: 65px;
+padding: 0px 15px;
+font-size: 20px;
+font-weight: bolder;
+height: 40px;
+
+display: flex;
+align-items: center;
+gap: 7px;
 }
